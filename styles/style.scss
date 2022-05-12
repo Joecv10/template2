@@ -1,0 +1,82 @@
+$backgcard: #11243d;
+
+.backg {
+  background-color: #141b2f;
+}
+.size-div {
+  min-height: 720px;
+}
+
+.rounder {
+  border-radius: 20px;
+}
+
+.cardh {
+  background-color: $backgcard;
+  img {
+    margin-top: 8px;
+  }
+}
+
+.cardb {
+  background-color: $backgcard;
+  a {
+    color: whitesmoke;
+    text-decoration: none;
+
+    &:hover {
+      color: #2ce9e9;
+    }
+  }
+
+  .ct {
+    margin: 10px 0px 10px 0px;
+  }
+
+  p {
+    color: #6d85a4;
+    font-size: 11px;
+    font-weight: normal;
+  }
+
+  .ttt {
+    color: #2ce9e9;
+    padding: 0px 0px 0px 20px;
+    margin: -16px 73px -2px 4px;
+  }
+
+  .box3 {
+    padding: 0px 0px 0px 20px;
+    margin: -22px 0px -20px 145px;
+  }
+
+  .yyy {
+    padding: 2px 0px 0px 20px;
+    margin: 0px 0px 20px 170px;
+  }
+}
+
+.cardf {
+  background-color: $backgcard;
+  border-color: #6d85a4;
+
+  img {
+    height: auto;
+    width: auto;
+    max-height: 32px;
+    max-width: 32px;
+    margin-top: 12px;
+    border-color: #6d85a4;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+
+  p {
+    padding-left: 45px;
+    padding-right: 5px;
+    padding-top: 6px;
+    padding-bottom: 0px;
+    margin-top: -30px;
+  }
+}
