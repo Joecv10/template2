@@ -81,4 +81,23 @@
   padding-bottom: 0px;
   margin-top: -30px;
 }
+
+.img-background {
+  cursor: pointer;
+}
+
+.img-background:hover {
+  opacity: 0.5;
+}
+
+.img-background:hover .img-view {
+  display: block;
+}
+
+.img-view {
+  position: absolute;
+  top: 23%;
+  left: 40%;
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
